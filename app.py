@@ -12,7 +12,7 @@ def get_current_weather():
     url = "https://weatherapi-com.p.rapidapi.com/current.json"
     querystring = {"q": city}
     headers = {
-        "X-RapidAPI-Key": "55511db366msha451900e30bd65cp16e3a8jsnae47f713a391",
+        "X-RapidAPI-Key": "your_key",
         "X-RapidAPI-Host": "weatherapi-com.p.rapidapi.com"
     }
     response = requests.request("GET", url, headers=headers, params=querystring)
